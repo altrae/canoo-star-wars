@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "emitDecoratorMetadata": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "jsx": "react",
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "module": "ESNext",
+    "moduleResolution": "NodeNext",
+    "outDir": "dist",
+    "paths": {
+      "*.ts": ["*"]
+    },
+    "resolveJsonModule": true,
+    "sourceMap": true,
+    "target": "ESNext"
+  },
+  "exclude": ["node_modules", "**/*.spec.ts"],
+  "include": [
+    "src/**/*.ts",
+    "src/app.tsx",
+    "src/index.tsx",
+    "src/components/vehicles/vehicle/index.tsx",
+    "src/components/film-card/index.tsx"
+  ]
+}

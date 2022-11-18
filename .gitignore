@@ -1,0 +1,5 @@
+*.log
+.history
+.yarn
+build
+node_modules
